@@ -1,0 +1,44 @@
+
+.grid * + * {
+    margin-top: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        gap: 16px;
+    }
+
+    .grid * + * {
+        margin-top: 0;
+    }
+
+    .grid--right {
+        justify-content: right;
+    }
+
+    .grid--center {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid--top {
+        align-items: start;
+    }
+    
+    .grid__1-2 {
+        flex: 1;
+        max-width: 50%;
+    }
+    
+    .grid__1-3 {
+        flex: 1;
+        max-width: 520px;
+    }
+    
+    .grid__2-3 {
+        flex: 2;
+        max-width: 860px;
+    }
+}

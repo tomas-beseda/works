@@ -1,0 +1,13 @@
+.hero {
+    padding: 250px 0 150px 0;
+    width: 100%;
+    background-color: #344BCC;
+    background-image: url('../assets/hero-back.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+@media (min-width: 768px) {
+   
+}

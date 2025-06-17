@@ -1,0 +1,21 @@
+/*
+@font-face {
+	font-family: "regular";
+    src:url('../assets/fonts/regular.woff') format("woff"),
+        url('../assets/fonts/regular.woff') format("woff2"),
+        url('../assets/fonts/regular.woff') format("truetype"),
+        url('../assets/fonts/regular.woff') format("svg");
+    font-weight:400;
+    font-style:normal
+}
+
+@font-face {
+	font-family: "bold";
+    src:url('../assets/fonts/bold.woff') format("woff"),
+        url('../assets/fonts/bold.woff') format("woff2"),
+        url('../assets/fonts/bold.woff') format("truetype"),
+        url('../assets/fonts/bold.woff') format("svg");
+    font-weight:700;
+    font-style:normal
+}
+    */

@@ -1,0 +1,159 @@
+.typo {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+}
+
+h1.typo,h1,
+h2.typo,h2,
+h3.typo,h3,
+.typo--as-h2,
+.typo--as-h3 {
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+}
+
+.typo,p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h1.typo,h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+h2.typo,h2,
+.typo--as-h2 {
+    font-size: 35px;
+    line-height: 50px;
+}
+
+h3.typo,h3,
+.typo--as-h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    h1.typo,h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    h2.typo,h2,
+    .typo--as-h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    
+    h3.typo,h3,
+    .typo--as-h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+}
+
+.text-content * + * {
+    display: block!important;
+    margin-top: 20px!important;
+}
+
+.typo--bigger {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.typo--smaller {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.typo--left {
+    text-align: left;
+}
+
+.typo--center {
+    text-align: center;
+}
+
+.typo--right {
+    text-align: right;
+}
+
+.typo--white {
+    color: #FFFFFF;
+}
+
+.typo--white-semi {
+    color: rgba(255,255,255,0.9);
+}
+
+.typo--bold {
+    font-weight: bold;
+}
+
+.typo--black {
+    color: #000000!important;
+}
+
+.typo--blue {
+    color: #344BCC!important;
+}
+
+.typo--link-white {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.typo--link-icon {
+    position: relative;
+    padding-left: 40px;
+    margin-right: 25px;
+}
+
+.typo--link-icon:before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.typo--link-icon-phone:before {
+    background-image: url(../assets/icon-phone.svg);
+}
+
+.typo--link-icon-mail:before {
+    background-image: url(../assets/icon-mail.svg);
+}
+
+.typo--yellow {
+    color: #FFC800;
+}
+
+.typo--right-md {
+    text-align: center;
+}
+
+.typo--left-md {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .typo--left-md {
+        text-align: left;
+    }
+    
+    .typo--right-md {
+        text-align: right;
+    }
+}
+
+ul.typo li {
+    padding: 8px 0;
+}

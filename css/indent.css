@@ -1,0 +1,11 @@
+.indent + .indent {
+    margin-top: 16px;
+}
+
+.indent + .indent--small {
+    margin-top: 12px;
+}
+
+.indent + .indent--large {
+    margin-top: 32px;
+}

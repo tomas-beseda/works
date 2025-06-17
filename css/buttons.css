@@ -1,0 +1,92 @@
+.btn,
+input[type="submit"] {
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: none;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:#344BCC;
+    background-color:#fff;
+    border-color:#fff;
+    background-position:center;
+    background:#fff radial-gradient(circle, transparent 1%, #fff 1%) center / 100%;
+    transition: background .8s,border-color .8s,color .8s;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    color:#344BCC;
+    background-color:#FFF9EC;
+    border-color:#FFF9EC;
+}
+
+.btn:focus{
+    outline:dotted 1px #FFF9EC;
+}
+
+.btn:hover,
+.btn:active{
+    background-size:15000%;
+    transition:background-size .45s cubic-bezier(.25, .46, .45, .94),border-color .45s;
+}
+
+.btn--white {
+    background: #fff;
+    border-color: #fff;
+    color: #344BCC;
+}
+
+.btn--white:hover {
+    background-color: #F7F8FC;
+    color: #344BCC;
+}
+
+.btn--transparent {
+    background: transparent;
+    color:#fff;
+    border: 1px solid #fff;
+}
+
+.btn--transparent:hover {
+    outline: 1px solid #FFF9EC;
+    border: 1px solid #FFF9EC;
+    background-color: transparent;
+    color: #FFF9EC;
+}
+
+.btn--blue {
+    background: #344BCC;
+    color:#fff;
+    border: 1px solid #344BCC;
+}
+
+.btn--blue:hover {
+    outline: 1px solid #344BCC;
+    border: 1px solid #344BCC;
+    background-color: transparent;
+    color: #344BCC;
+}
+
+.btn--badge {
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #000;
+    cursor: not-allowed;
+    pointer-events: none;
+}

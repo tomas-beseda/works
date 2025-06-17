@@ -1,0 +1,30 @@
+.width {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    max-width: 1180px;
+    text-align: left;
+}
+
+.width--wide {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+    max-width: 1180px;
+}
+
+.width__slim {
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.width__slim--left {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+}

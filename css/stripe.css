@@ -1,0 +1,21 @@
+.stripe {
+    padding: 75px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.stripe--blue {
+    background-color: #344BCC;
+}
+
+.stripe--grey {
+    background-color: #F2F4F7;
+}
+
+.stripe--flat {
+    padding: 0;
+}
+
+.stripe--flat-top {
+    padding-top: 0;
+}

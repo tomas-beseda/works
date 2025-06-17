@@ -1,0 +1,21 @@
+.box {
+    display: block;
+    padding: 32px;
+    background-color: transparent;
+    border-radius: 16px;
+    border: 3px solid #344BCC;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.box--blue {
+    background-color: #344BCC;
+}
+
+.box--image {
+    padding-left: 400px;
+    background-repeat: no-repeat;
+    background-size: 368px;
+    background-position: left center;
+    border: 0;
+}

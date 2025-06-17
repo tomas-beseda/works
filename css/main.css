@@ -1,0 +1,27 @@
+/** 
+    gray: #F7F8FC;
+    black: #000000;
+    white: #FFFFFF;
+    yellow: #FFC800;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+@import "reset.css";
+@import "font-face.css";
+@import "benefits.css";
+@import "indent.css";
+@import "width.css";
+@import "typo.css";
+@import "buttons.css";
+@import "card.css";
+@import "header.css";
+@import "hero.css";
+@import "stripe.css";
+@import "footer.css";
+@import "grid.css";
+@import "showcase.css";
+@import "box.css";
+@import "input.css";
+@import "timeline.css";
+@import "slick.css";
+@import "slick-theme.css";

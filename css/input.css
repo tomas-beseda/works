@@ -1,0 +1,47 @@
+.input {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #fcfdff;
+    color: #000;
+    border: 1px solid #d2dceb;
+    border-radius: 6px;
+    vertical-align: middle;
+    height: 45px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    padding: 14px 20px;
+    transition: .3s border;
+}
+
+.input:focus {
+    border-color: #90B43A;
+}
+
+textarea.input {
+    height: 200px;
+    max-width: 768px;
+    color: #000;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+.input--medium {
+    max-width: 360px;
+}
+
+.input--medium-large {
+    max-width: 480px;
+}
+
+label {
+    display: block;
+    padding: 0 0 8px 0;
+    font-size: 14px;
+    color: #fff;
+}
